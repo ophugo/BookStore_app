@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		855233CC244FCB9700D47D73 /* AddViewControllwe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855233CB244FCB9700D47D73 /* AddViewControllwe.swift */; };
 		858BD582240F408900F7E879 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858BD581240F408900F7E879 /* AppDelegate.swift */; };
 		858BD584240F408900F7E879 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858BD583240F408900F7E879 /* SceneDelegate.swift */; };
 		858BD586240F408900F7E879 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858BD585240F408900F7E879 /* MasterViewController.swift */; };
@@ -16,6 +17,9 @@
 		858BD590240F408B00F7E879 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 858BD58E240F408B00F7E879 /* LaunchScreen.storyboard */; };
 		858BD59B240F408B00F7E879 /* BookStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858BD59A240F408B00F7E879 /* BookStoreTests.swift */; };
 		858BD5A6240F408B00F7E879 /* BookStoreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858BD5A5240F408B00F7E879 /* BookStoreUITests.swift */; };
+		858BD5B4240F40EB00F7E879 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858BD5B3240F40EB00F7E879 /* Book.swift */; };
+		858BD5B6240F412A00F7E879 /* BookStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858BD5B5240F412A00F7E879 /* BookStore.swift */; };
+		858DB1C12453B480008AF90E /* BookStoreDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 858DB1C02453B480008AF90E /* BookStoreDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		855233CB244FCB9700D47D73 /* AddViewControllwe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewControllwe.swift; sourceTree = "<group>"; };
 		858BD57E240F408900F7E879 /* BookStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		858BD581240F408900F7E879 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		858BD583240F408900F7E879 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +56,9 @@
 		858BD5A1240F408B00F7E879 /* BookStoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookStoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		858BD5A5240F408B00F7E879 /* BookStoreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStoreUITests.swift; sourceTree = "<group>"; };
 		858BD5A7240F408B00F7E879 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		858BD5B3240F40EB00F7E879 /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		858BD5B5240F412A00F7E879 /* BookStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStore.swift; sourceTree = "<group>"; };
+		858DB1C02453B480008AF90E /* BookStoreDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookStoreDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +109,18 @@
 		858BD580240F408900F7E879 /* BookStore */ = {
 			isa = PBXGroup;
 			children = (
+				858BD5B3240F40EB00F7E879 /* Book.swift */,
 				858BD581240F408900F7E879 /* AppDelegate.swift */,
 				858BD583240F408900F7E879 /* SceneDelegate.swift */,
 				858BD585240F408900F7E879 /* MasterViewController.swift */,
 				858BD587240F408900F7E879 /* DetailViewController.swift */,
+				855233CB244FCB9700D47D73 /* AddViewControllwe.swift */,
 				858BD589240F408900F7E879 /* Main.storyboard */,
 				858BD58C240F408B00F7E879 /* Assets.xcassets */,
 				858BD58E240F408B00F7E879 /* LaunchScreen.storyboard */,
 				858BD591240F408B00F7E879 /* Info.plist */,
+				858BD5B5240F412A00F7E879 /* BookStore.swift */,
+				858DB1C02453B480008AF90E /* BookStoreDelegate.swift */,
 			);
 			path = BookStore;
 			sourceTree = "<group>";
@@ -264,7 +276,11 @@
 			files = (
 				858BD582240F408900F7E879 /* AppDelegate.swift in Sources */,
 				858BD584240F408900F7E879 /* SceneDelegate.swift in Sources */,
+				858BD5B6240F412A00F7E879 /* BookStore.swift in Sources */,
 				858BD586240F408900F7E879 /* MasterViewController.swift in Sources */,
+				855233CC244FCB9700D47D73 /* AddViewControllwe.swift in Sources */,
+				858DB1C12453B480008AF90E /* BookStoreDelegate.swift in Sources */,
+				858BD5B4240F40EB00F7E879 /* Book.swift in Sources */,
 				858BD588240F408900F7E879 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
